@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PDF Guru — offline PDF compression for Android</title>
+<meta name="description" content="PDF Guru shrinks and resizes PDFs on your phone. No uploads, no accounts, no internet permission. Batch compression, cancel from the notification, grayscale mode.">
+<meta name="theme-color" content="#1b1147">
+<meta property="og:title" content="PDF Guru — offline PDF compression for Android">
+<meta property="og:description" content="Shrink PDFs without uploading them. Batch, cancel, resize, grayscale — entirely on device.">
+<meta property="og:type" content="website">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="glow glow-a" aria-hidden="true"></div>
+<div class="glow glow-b" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#top">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 32 32" width="22" height="22" fill="none">
+          <path d="M9 4h9l6 6v18H9z" fill="#fff" opacity=".95"/>
+          <path d="M18 4l6 6h-6z" fill="#c7d2fe"/>
+          <path d="M12.6 20.4c2.6.2 5-.7 5-3 0-2-1.7-3-4-2.7l-1 .2v7.6" stroke="#7c3aed" stroke-width="1.8" stroke-linecap="round"/>
+        </svg>
+      </span>
+      <span class="brand-name">PDF&nbsp;Guru</span>
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="#features">Features</a>
+      <a href="#screens">Screenshots</a>
+      <a href="#how">How it works</a>
+      <a href="#privacy">Privacy</a>
+    </nav>
+    <a class="btn btn-ghost" href="https://github.com/Aashupokemon/PDF-Guru" target="_blank" rel="noopener">
+      GitHub <span aria-hidden="true">↗</span>
+    </a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- Hero -->
+  <section class="hero wrap">
+    <div class="hero-copy">
+      <p class="eyebrow"><span class="dot"></span> Android · fully offline · no ads</p>
+      <h1>Shrink PDFs.<br><span class="grad">Keep them yours.</span></h1>
+      <p class="lede">
+        PDF Guru compresses and resizes PDFs right on your phone. No upload, no account,
+        no analytics — the app doesn’t even request internet access.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="https://github.com/Aashupokemon/PDF-Guru" target="_blank" rel="noopener">Get the source</a>
+        <a class="btn btn-soft" href="#screens">See it in action</a>
+      </div>
+      <dl class="stats">
+        <div>
+          <dt>60%</dt>
+          <dd>smaller in our 60-page scan test</dd>
+        </div>
+        <div>
+          <dt>0</dt>
+          <dd>network permissions</dd>
+        </div>
+        <div>
+          <dt>8.0+</dt>
+          <dd>Android 8.0 and newer</dd>
+        </div>
+      </dl>
+    </div>
+
+    <div class="hero-art" aria-hidden="true">
+      <div class="phone phone-back">
+        <img src="shots/setup.png" alt="">
+      </div>
+      <div class="phone phone-front">
+        <img src="shots/results.png" alt="">
+      </div>
+      <div class="chip chip-1">−60% &nbsp;size</div>
+      <div class="chip chip-2">🔒 stays on device</div>
+    </div>
+  </section>
+
+  <!-- Feature strip -->
+  <section class="strip">
+    <div class="wrap strip-inner">
+      <span>Compress</span><span>·</span><span>Resize</span><span>·</span><span>Batch</span><span>·</span>
+      <span>Cancel from the shade</span><span>·</span><span>Grayscale</span><span>·</span><span>No uploads</span>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="wrap section">
+    <header class="section-head">
+      <p class="eyebrow"><span class="dot"></span> What it does</p>
+      <h2>Everything a scanner app should do — minus the upload.</h2>
+      <p class="section-sub">Built for the 40&nbsp;MB scans that clog your inbox. Each file is validated before anything is written, and your original is never touched.</p>
+    </header>
+
+    <div class="cards">
+      <article class="card c-violet">
+        <div class="icon">🎚️</div>
+        <h3>Three honest presets</h3>
+        <p><strong>Maximum</strong> downsamples to 150&nbsp;dpi at quality 60. <strong>Balanced</strong> uses 200&nbsp;dpi at 78. <strong>Lossless</strong> rewrites structure only and never touches pixels.</p>
+      </article>
+
+      <article class="card c-pink">
+        <div class="icon">🩶</div>
+        <h3>Grayscale mode</h3>
+        <p>One switch turns every embedded image gray — the quickest win for text scans that carry colour nobody needs.</p>
+      </article>
+
+      <article class="card c-orange">
+        <div class="icon">🧾</div>
+        <h3>Real-world images</h3>
+        <p>CMYK, Indexed and soft-masked images are decoded properly, so scans that other tools skip actually get smaller.</p>
+      </article>
+
+      <article class="card c-teal">
+        <div class="icon">📚</div>
+        <h3>Batch with a real cancel</h3>
+        <p>Queue as many PDFs as you like. Watch per-file progress, then hit <em>Cancel</em> straight from the notification without reopening the app.</p>
+      </article>
+
+      <article class="card c-blue">
+        <div class="icon">📐</div>
+        <h3>Resize pages</h3>
+        <p>A4, Letter or a custom size, with fit, fill or stretch — applied to every page or just the range you name.</p>
+      </article>
+
+      <article class="card c-lime">
+        <div class="icon">📤</div>
+        <h3>Fits your file manager</h3>
+        <p>Share a PDF into PDF Guru or open one from any app. Results land in a folder you pick, ready to open or share again.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- Before / after -->
+  <section class="wrap section">
+    <div class="compare">
+      <div class="compare-copy">
+        <p class="eyebrow"><span class="dot"></span> Measured, not promised</p>
+        <h2>41.6&nbsp;MB in.<br><span class="grad-warm">16.6&nbsp;MB out.</span></h2>
+        <p class="section-sub">
+          A 60-page 300&nbsp;dpi colour scan with Maximum compression and grayscale turned on.
+          Colour compression alone lands around 20.5&nbsp;MB. Every page count is checked before the copy is published.
+        </p>
+        <div class="bars" role="img" aria-label="Input 41.6 megabytes, output 16.6 megabytes">
+          <div class="bar-row"><span class="bar-label">Original</span><span class="bar bar-in"></span><span class="bar-val">41.6 MB</span></div>
+          <div class="bar-row"><span class="bar-label">PDF Guru</span><span class="bar bar-out"></span><span class="bar-val">16.6 MB</span></div>
+        </div>
+        <p class="fineprint">No gain? No copy. If compression can’t beat the source, the app says so and leaves the folder untouched.</p>
+      </div>
+      <div class="compare-art" aria-hidden="true">
+        <div class="badge">−60%</div>
+        <div class="sheet sheet-a"></div>
+        <div class="sheet sheet-b"></div>
+        <div class="sheet sheet-c"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Screenshots -->
+  <section id="screens" class="wrap section">
+    <header class="section-head center">
+      <p class="eyebrow"><span class="dot"></span> Screenshots</p>
+      <h2>Plain, fast, and out of your way.</h2>
+    </header>
+    <div class="shots">
+      <figure>
+        <div class="phone small"><img src="shots/home.png" alt="PDF Guru home screen with Compress PDFs and Resize pages cards"></div>
+        <figcaption>Pick an operation</figcaption>
+      </figure>
+      <figure>
+        <div class="phone small"><img src="shots/setup.png" alt="Compression setup with presets, grayscale switch and output folder"></div>
+        <figcaption>Choose preset, pages, output</figcaption>
+      </figure>
+      <figure>
+        <div class="phone small"><img src="shots/results.png" alt="Results screen showing 41.6 MB to 16.6 MB and 60 percent smaller"></div>
+        <figcaption>Open or share the result</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section id="how" class="wrap section">
+    <header class="section-head">
+      <p class="eyebrow"><span class="dot"></span> How it works</p>
+      <h2>Three taps, no round trip.</h2>
+    </header>
+    <ol class="steps">
+      <li>
+        <span class="step-num">1</span>
+        <h3>Add PDFs</h3>
+        <p>Use the system picker, or share files straight from your file manager, mail or chat app.</p>
+      </li>
+      <li>
+        <span class="step-num">2</span>
+        <h3>Pick a preset</h3>
+        <p>Maximum, Balanced or Lossless. Add grayscale or a page range if you need one.</p>
+      </li>
+      <li>
+        <span class="step-num">3</span>
+        <h3>Start</h3>
+        <p>Choose an output folder and go. Progress lives in the notification, and results survive screen rotation.</p>
+      </li>
+    </ol>
+  </section>
+
+  <!-- Privacy -->
+  <section id="privacy" class="wrap section">
+    <div class="privacy">
+      <div class="privacy-copy">
+        <p class="eyebrow light"><span class="dot"></span> Privacy</p>
+        <h2>No internet permission.<br>Not now, not ever.</h2>
+        <p>
+          The merged Android manifest has no <code>INTERNET</code> permission, so the app
+          physically cannot upload your documents. Jobs are stored in a local database and
+          finished work is cleaned up on its own.
+        </p>
+        <ul class="checks">
+          <li>No accounts, ads or analytics SDKs</li>
+          <li>Work continues in the background with a visible, cancelable notification</li>
+          <li>Output goes only to the folder you choose; sources are never overwritten</li>
+        </ul>
+        <a class="btn btn-light" href="https://github.com/Aashupokemon/PDF-Guru" target="_blank" rel="noopener">Read the code ↗</a>
+      </div>
+      <div class="shield" aria-hidden="true">
+        <div class="shield-ring"></div>
+        <div class="shield-core">🔒</div>
+        <span class="pill p1">0 trackers</span>
+        <span class="pill p2">local only</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="wrap section">
+    <header class="section-head center">
+      <p class="eyebrow"><span class="dot"></span> Questions</p>
+      <h2>The short answers.</h2>
+    </header>
+    <div class="faq">
+      <details>
+        <summary>Where do I download the APK?</summary>
+        <p>PDF Guru is built from source. Clone the repository, run <code>./gradlew assembleDebug</code> and install <code>app/build/outputs/apk/debug/app-debug.apk</code>. You need JDK 17+ and the Android SDK.</p>
+      </details>
+      <details>
+        <summary>Does compression ever make a file bigger?</summary>
+        <p>No. If the recompressed copy isn’t smaller, nothing is written and the file is reported as “No gain”. Resizing is the one exception — it publishes a new page size even when the file grows.</p>
+      </details>
+      <details>
+        <summary>What happens if I close the app mid-batch?</summary>
+        <p>The job is a WorkManager task recorded in a local database. It keeps running, shows progress in the notification, and is restored when you come back — even after a force stop.</p>
+      </details>
+      <details>
+        <summary>Which Android versions are supported?</summary>
+        <p>Android 8.0 (API 26) and newer. Files are read and written through the Storage Access Framework, so no storage permission is needed.</p>
+      </details>
+      <details>
+        <summary>Why do scanned PDFs sometimes barely shrink?</summary>
+        <p>Some scans are already JPEG-compressed at low resolution. Lossless mode only rewrites structure, and Maximum can’t beat a stream that is already efficient — the app tells you instead of pretending.</p>
+      </details>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div class="brand">
+      <span class="brand-mark small" aria-hidden="true">
+        <svg viewBox="0 0 32 32" width="16" height="16" fill="none">
+          <path d="M9 4h9l6 6v18H9z" fill="#fff" opacity=".95"/>
+          <path d="M18 4l6 6h-6z" fill="#c7d2fe"/>
+        </svg>
+      </span>
+      <span class="brand-name">PDF Guru</span>
+    </div>
+    <p>Offline PDF compression for Android. Built with Kotlin, Jetpack Compose and PDFBox-Android.</p>
+    <a href="https://github.com/Aashupokemon/PDF-Guru" target="_blank" rel="noopener">github.com/Aashupokemon/PDF-Guru</a>
+  </div>
+</footer>
+
+</body>
+</html>
