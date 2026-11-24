@@ -106,6 +106,20 @@ img { max-width: 100%; display: block; }
 .btn-soft { background: rgba(255, 255, 255, .09); color: var(--paper); border: 1px solid rgba(255, 255, 255, .14); }
 .btn-soft:hover { background: rgba(255, 255, 255, .16); }
 
+.btn-download { font-size: 1.02rem; padding: .95rem 1.6rem; }
+.btn-download span { font-size: 1.05em; line-height: 1; }
+
+.nav-dl {
+  color: #fff !important;
+  padding: .42rem .9rem;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #a855f7, #ec4899);
+  box-shadow: 0 6px 18px rgba(236, 72, 153, .3);
+}
+.nav-dl:hover { filter: brightness(1.08); }
+
+.dl-meta { margin: -1.5rem 0 2.4rem; font-size: .82rem; color: var(--muted); letter-spacing: .01em; }
+
 .btn-ghost { background: rgba(255, 255, 255, .06); color: var(--paper); border: 1px solid rgba(255, 255, 255, .12); padding: .6rem 1rem; font-size: .88rem; }
 .btn-ghost:hover { background: rgba(255, 255, 255, .13); }
 

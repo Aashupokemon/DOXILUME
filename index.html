@@ -34,6 +34,7 @@
       <a href="#screens">Screenshots</a>
       <a href="#how">How it works</a>
       <a href="#privacy">Privacy</a>
+      <a class="nav-dl" href="downloads/PDF-Guru-0.1.0.apk" download>Download</a>
     </nav>
     <a class="btn btn-ghost" href="https://github.com/Aashupokemon/PDF-Guru" target="_blank" rel="noopener">
       GitHub <span aria-hidden="true">↗</span>
@@ -53,9 +54,12 @@
         no analytics — the app doesn’t even request internet access.
       </p>
       <div class="hero-actions">
-        <a class="btn btn-primary" href="https://github.com/Aashupokemon/PDF-Guru" target="_blank" rel="noopener">Get the source</a>
+        <a class="btn btn-primary btn-download" href="downloads/PDF-Guru-0.1.0.apk" download>
+          <span aria-hidden="true">⬇</span> Download APK
+        </a>
         <a class="btn btn-soft" href="#screens">See it in action</a>
       </div>
+      <p class="dl-meta">v0.1.0 · 15 MB · Android 8.0+ · signed release build, no Play Store required</p>
       <dl class="stats">
         <div>
           <dt>60%</dt>
@@ -246,8 +250,8 @@
     </header>
     <div class="faq">
       <details>
-        <summary>Where do I download the APK?</summary>
-        <p>PDF Guru is built from source. Clone the repository, run <code>./gradlew assembleDebug</code> and install <code>app/build/outputs/apk/debug/app-debug.apk</code>. You need JDK 17+ and the Android SDK.</p>
+        <summary>How do I install the app?</summary>
+        <p>Grab the signed release build: <a href="downloads/PDF-Guru-0.1.0.apk" download><strong>PDF-Guru-0.1.0.apk</strong></a> (15&nbsp;MB, Android 8.0+). Open the download on your phone, allow installs from your browser or file manager when Android asks, and tap <em>Install</em>. Play Protect may offer to scan the file first — that is normal for an app that doesn’t come from the Play Store.</p>
       </details>
       <details>
         <summary>Does compression ever make a file bigger?</summary>
@@ -260,6 +264,10 @@
       <details>
         <summary>Which Android versions are supported?</summary>
         <p>Android 8.0 (API 26) and newer. Files are read and written through the Storage Access Framework, so no storage permission is needed.</p>
+      </details>
+      <details>
+        <summary>Can I build it myself instead?</summary>
+        <p>Of course. Clone <a href="https://github.com/Aashupokemon/PDF-Guru" target="_blank" rel="noopener">the repository</a>, run <code>./gradlew assembleDebug</code> and install <code>app/build/outputs/apk/debug/app-debug.apk</code>. You need JDK 17+ and the Android SDK. The APK on this page is the signed release build produced from that same source.</p>
       </details>
       <details>
         <summary>Why do scanned PDFs sometimes barely shrink?</summary>
