@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy — DOXILUME</title>
+<meta name="description" content="DOXILUME privacy policy: offline PDF compression with no accounts, no analytics, no advertising and no internet permission.">
+<meta name="theme-color" content="#1b1147">
+<meta property="og:title" content="Privacy policy — DOXILUME">
+<meta property="og:description" content="No uploads, no accounts, no internet permission. How DOXILUME handles your files.">
+<meta property="og:type" content="website">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="glow glow-a" aria-hidden="true"></div>
+<div class="glow glow-b" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-mark" aria-hidden="true">
+        <img src="shots/app-icon-512.png" alt="" width="36" height="36">
+      </span>
+      <span class="brand-name">DOXILUME</span>
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <a href="index.html#features">Features</a>
+      <a href="index.html#screens">Screenshots</a>
+      <a href="index.html#how">How it works</a>
+      <a href="index.html#privacy">Privacy</a>
+      <a class="nav-dl" href="downloads/DOXILUME-0.1.0.apk" download>Download</a>
+    </nav>
+    <a class="btn btn-ghost" href="https://github.com/Aashupokemon/DOXILUME" target="_blank" rel="noopener">
+      GitHub <span aria-hidden="true">↗</span>
+    </a>
+  </div>
+</header>
+
+<main class="wrap legal" id="top">
+  <p class="eyebrow"><span class="dot"></span> Legal</p>
+  <h1>Privacy policy</h1>
+  <p class="updated">Effective 25 November 2026 · applies to the DOXILUME Android app (version 0.1.0 and later) and this website.</p>
+
+  <p>
+    DOXILUME is an offline PDF compressor and page resizer. It is built so that your documents never
+    need to leave your phone, and this policy explains exactly what the app does — and does not do —
+    with your information.
+  </p>
+
+  <h2>1. Nothing leaves your device</h2>
+  <p>
+    The DOXILUME app does not request the <code>INTERNET</code> permission. This is enforced in the
+    shipped app's manifest, so the app cannot upload, sync, back up or transmit a document to us or
+    to anyone else. All compression, resizing and image re-encoding happens locally on your phone.
+  </p>
+
+  <h2>2. What the app accesses</h2>
+  <ul>
+    <li><strong>PDFs you pick</strong> through the Android system file picker, or send to DOXILUME with Share / Open with.</li>
+    <li><strong>The output folder you choose</strong>, written through the Storage Access Framework (A4 / Letter resizing, compressed copies).</li>
+    <li><strong>Shared or opened files</strong> are copied into the app's private storage so a batch can finish even if the source app closes. Those copies are deleted when the app cleans up its temporary files.</li>
+  </ul>
+
+  <h2>3. What is stored on your device</h2>
+  <ul>
+    <li>A local job list: file names, sizes, status, presets and results.</li>
+    <li>Your settings: compression preset, page range, grayscale choice and output folder.</li>
+    <li>Temporary imports used while a job runs.</li>
+  </ul>
+  <p>
+    This data lives in the app's private storage. It is never transmitted, never backed up to a
+    server, and is deleted when you uninstall the app. Finished jobs are pruned automatically and
+    stale temporary imports are cleaned up on launch.
+  </p>
+
+  <h2>4. What is never collected</h2>
+  <p>
+    DOXILUME collects no personal data and shares none. There are no accounts, no names, email
+    addresses or phone numbers, no location, contacts or calendar access, no advertising or device
+    identifiers, no analytics, no crash reporting and no third-party tracking SDKs.
+  </p>
+
+  <h2>5. Sharing is your choice</h2>
+  <p>
+    A finished PDF leaves the app only when you tap <em>Share</em> or <em>Open</em> and pick a
+    destination. That action is handled by Android and the app you choose. Once a file is shared,
+    the receiving app's own privacy policy applies.
+  </p>
+
+  <h2>6. Permissions and why they exist</h2>
+  <ul>
+    <li><strong>Notifications</strong> — show batch progress and the Cancel action.</li>
+    <li><strong>Foreground service (data sync)</strong> — keep a user-started batch alive while that notification is visible.</li>
+    <li><strong>Wake lock, receive boot completed</strong> — supplied by WorkManager so queued jobs can resume.</li>
+    <li><strong>No internet or network-state permission</strong> — removed from the merged manifest; every job is local.</li>
+    <li><strong>No storage permission</strong> — files are read and written only through the Storage Access Framework.</li>
+  </ul>
+
+  <h2>7. Children</h2>
+  <p>
+    DOXILUME is a document utility with no accounts and no data collection. It is not directed at
+    children and does not knowingly collect information from anyone.
+  </p>
+
+  <h2>8. Changes to this policy</h2>
+  <p>
+    If the app's behaviour or the law requires a change, this page is updated and the effective date
+    above changes. The same policy is available inside the app under <em>Privacy policy</em> on the
+    home screen, so it can be read without a connection.
+  </p>
+
+  <h2>9. Contact</h2>
+  <p>
+    Questions about this policy or how DOXILUME handles files can be raised in the project's issue
+    tracker: <a href="https://github.com/Aashupokemon/DOXILUME/issues" target="_blank" rel="noopener">github.com/Aashupokemon/DOXILUME/issues</a>.
+  </p>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div class="brand">
+      <span class="brand-mark small" aria-hidden="true">
+        <img src="shots/app-icon-512.png" alt="" width="26" height="26">
+      </span>
+      <span class="brand-name">DOXILUME</span>
+    </div>
+    <p>Offline PDF compression for Android. Built with Kotlin, Jetpack Compose and PDFBox-Android.</p>
+    <div class="footer-links">
+      <a href="privacy.html">Privacy policy</a>
+      <a href="https://github.com/Aashupokemon/DOXILUME" target="_blank" rel="noopener">github.com/Aashupokemon/DOXILUME</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

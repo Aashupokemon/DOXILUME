@@ -10,6 +10,7 @@ Live: <https://aashupokemon.github.io/DOXILUME/>
 | Path | Purpose |
 | --- | --- |
 | `index.html`, `styles.css` | The page (plain HTML/CSS, no build step) |
+| `privacy.html` | Privacy policy (linked from the footer, FAQ and the app) |
 | `favicon.svg` | Doxilume mark used as the tab icon |
 | `shots/` | App screenshots and the launcher icon shown on the page |
 | `downloads/DOXILUME-0.1.0.apk` | Signed release build (Android 8.0+, ~15 MB) |
