@@ -362,12 +362,12 @@ h2 { font-size: clamp(1.9rem, 3.4vw, 2.7rem); line-height: 1.12; letter-spacing:
 
 /* ---------- screenshots ---------- */
 
-.shots { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.6rem; justify-items: center; }
+.shots { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.2rem; justify-items: center; }
 .shots figure { margin: 0; text-align: center; }
 .phone.small {
   position: relative;
   width: 100%;
-  max-width: 250px;
+  max-width: 230px;
   border-radius: 26px;
   border: 5px solid rgba(255, 255, 255, .12);
   box-shadow: var(--shadow-lg);
@@ -516,7 +516,6 @@ details code { background: rgba(0, 0, 0, .3); padding: .1rem .35rem; border-radi
   .phone-back { width: 176px; left: 0; }
   .stats { gap: 1.4rem; }
   .compare-art { display: none; }
-  .shots figure:nth-child(2) { display: none; }
 }
 
 @media (prefers-reduced-motion: reduce) {
